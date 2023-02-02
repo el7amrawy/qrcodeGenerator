@@ -22,7 +22,7 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - node/install:
-          node-version: "16.17.1"
+          node-version: "18.13.0"
       - checkout
       - run:
           name: Install packages
