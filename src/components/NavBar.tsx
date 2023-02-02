@@ -2,7 +2,7 @@ import logo from "../../assets/images/logo_150.png";
 
 const NavBar = () => {
   return (
-    <nav className="p-4 shadow font-raleway flex">
+    <nav className="p-4 shadow font-raleway flex bg-white">
       <div className="flex items-center">
         <a href="./">
           <img src={logo} className="w-12" />
